@@ -36,8 +36,7 @@ end
 
 def add_s(array)
   array.each.with_index.collect do |element,index|  
-    if !index=="feet" 
-  element + 's'
+    if !index=="feet" element + 's'
     end
   end
   array
